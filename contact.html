@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us | Alpine Escape Resort</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wbp3fqs.css">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <span class="white-text">Alpine </span>
+            <span class="green-text">Escape</span>
+            <span class="white-text"> Resort</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-content">
+            <section class="left-side">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br></p>
+                <img src="images/swiss-peak.jpg" alt="Swiss mountain peak with snow" class="contact-image">
+            </section>
+
+            <div class="right-side">
+                <div class="form-container">
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                        <label for="name">Full Name: *</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email Address: *</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone Number: *</label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <fieldset>
+                            <legend>Preferred Method of Contact: <span class="required">*</span></legend>
+    
+                            <input type="radio" name="contact-pref" id="pref-email" checked>
+                            <label for="pref-email">Email</label>
+                            
+                            <input type="radio" name="contact-pref" id="pref-phone">
+                            <label for="pref-phone">Phone</label>
+                        </fieldset>
+
+                        <label for="comments">Comments: *</label>
+                        <textarea id="comments" name="comments" rows="5" required></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+   
+    <footer>
+        <div class=foot>
+            <p>Copyright ©2024 - Alpine Escape Resort</p>
+        </div>
+    </footer>
+
+</body>
+</html>
